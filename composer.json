@@ -1,0 +1,19 @@
+{
+    "name": "bal/footer-collapse-change",
+    "description": "footer-collapse-change",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "autoload": {
+        "psr-4": {
+            "BAL\\FooterCollapseChange\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "BAL\\FooterCollapseChange\\FooterCollapseChange",
+        "label": {
+            "de-DE": "Footer Spalten",
+            "en-GB": "Footer Columns"
+        }
+    }
+}
