@@ -3,10 +3,16 @@ import ViewportDetection from 'src/helper/viewport-detection.helper';
 
 
 
+
 export default class CollapseFooterColumnsChange extends CollapseFooterColumnsPlugin {
+
+
     init() {
-        console.log('fuuu');
+        super.init();
+        console.log('test');
     }
+
+
     _isInAllowedViewports() {
         return (ViewportDetection.isXS() || ViewportDetection.isSM() || ViewportDetection.isMD() || ViewportDetection.isLG());
     }
